@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
   get 'static_pages/home'
 
+###
+  get    '/guch'    => 'static_pages#guch'
+###
+
   get 'static_pages/help'
 
   get 'sessions/new'
