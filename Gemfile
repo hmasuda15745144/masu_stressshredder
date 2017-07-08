@@ -15,7 +15,7 @@ gem 'coffee-rails', '~> 4.1.0'
 # gem 'therubyracer', platforms: :ruby
 gem 'devise'
 # Use postgresql as the database for Active Record
-
+gem 'pg'   
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
@@ -39,7 +39,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'sqlite3',     '1.3.9'
+###  gem 'sqlite3',     '1.3.9'
+###  gem 'pg',             '0.18'
   gem 'byebug',      '3.4.0'
   gem 'web-console', '3.5.0'
   gem 'spring',      '1.1.3'
@@ -47,7 +48,7 @@ end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'pg',             '0.18'
+###  gem 'pg',             '0.18'
   gem 'rails_12factor', '0.0.2'
 end
 ruby "2.3.0"
