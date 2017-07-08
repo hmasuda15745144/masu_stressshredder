@@ -1,4 +1,9 @@
 /*jimanページ*/
+body	{font-family: 'メイリオ',
+		'Hiragino Kaku Gothic Pro',
+		sans-serif;
+		background-color: #FF0000}
+
 input, textarea {display: block}
 
 input		{width: 400px}
